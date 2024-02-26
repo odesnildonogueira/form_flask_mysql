@@ -3,10 +3,12 @@
 ##### Sistema de envío de formularios HTML utilizando Flask, Python y MySQL. Proporciona una solución integral para la gestión eficiente de datos ingresados en formularios, garantizando la conexión fluida entre el frontend y el backend mediante Flask.
 
 #### PASO 1, Crear mi entorno virtual
+	python3 -m venv env
 	 virtualenv -p python3 env o python3 -m venv env
 
 #### PASO 2, Activar el entorno virtual ejecutando;
-	 . env/Scripts/activate  
+	source env/bin/activate	 
+  . env/Scripts/activate  
  
 #### PASO 3, Ya dentro del entorno virtual instalar flask
 	  pip install flask
